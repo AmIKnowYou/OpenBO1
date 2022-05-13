@@ -1,0 +1,26 @@
+//! SPDX-License-Identifier: GPL-3.0-or-later
+
+#ifdef    __UNIMPLEMENTED__
+
+unsigned int LowerCase(unsigned int stringValue)
+{
+  return Zynamic::Forward<unsigned int (unsigned int)>(L"LowerCase")(stringValue);
+}
+
+#endif // __UNIMPLEMENTED__
+#ifdef    __UNIMPLEMENTED__
+
+int yyerror(char* s)
+{
+  return Zynamic::Forward<int (char*)>(L"yyerror")(s);
+}
+
+#endif // __UNIMPLEMENTED__
+#ifdef    __UNIMPLEMENTED__
+
+void ScriptParse(enum scriptInstance_t inst, union sval_u* parseData, unsigned char user)
+{
+  return Zynamic::Forward<void (enum scriptInstance_t, union sval_u*, unsigned char)>(L"ScriptParse")(inst, parseData, user);
+}
+
+#endif // __UNIMPLEMENTED__

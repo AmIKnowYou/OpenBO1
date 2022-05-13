@@ -1,0 +1,3 @@
+[submodule "CMakeModules/cmake-git-version-tracking"]
+	path = CMakeModules/cmake-git-version-tracking
+	url = https://github.com/andrew-hardin/cmake-git-version-tracking

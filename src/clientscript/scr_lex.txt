@@ -1,0 +1,42 @@
+//! SPDX-License-Identifier: GPL-3.0-or-later
+
+#ifdef    __UNIMPLEMENTED__
+
+void TextValue(char* str, int len)
+{
+  return Zynamic::Forward<void (char*, int)>(L"TextValue")(str, len);
+}
+
+#endif // __UNIMPLEMENTED__
+#ifdef    __UNIMPLEMENTED__
+
+int HashValue(char* str, int len)
+{
+  return Zynamic::Forward<int (char*, int)>(L"HashValue")(str, len);
+}
+
+#endif // __UNIMPLEMENTED__
+#ifdef    __UNIMPLEMENTED__
+
+int StringValue(char* str, int len)
+{
+  return Zynamic::Forward<int (char*, int)>(L"StringValue")(str, len);
+}
+
+#endif // __UNIMPLEMENTED__
+#ifdef    __UNIMPLEMENTED__
+
+void IntegerValue(char* str)
+{
+  return Zynamic::Forward<void (char*)>(L"IntegerValue")(str);
+}
+
+#endif // __UNIMPLEMENTED__
+#ifdef    __UNIMPLEMENTED__
+
+void FloatValue(char* str)
+{
+  return Zynamic::Forward<void (char*)>(L"FloatValue")(str);
+}
+
+#endif // __UNIMPLEMENTED__

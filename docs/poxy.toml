@@ -1,0 +1,20 @@
+# this is a config file for Poxy - a Doxygen + m.css front-end written in Python.
+# https://github.com/marzer/poxy
+
+name            = 'OpenBO1'
+author          = 'OpenBO1'
+github          = 'OpenBO1/OpenBO1'
+description     = 'Call of Duty®: Black Ops.'
+favicon         = 'favicon.png'
+license         = [ 'GPLv3', 'https://github.com/wroyca/Zynamic/blob/master/LICENSE' ]
+navbar          = [ 'files' ]
+
+[warnings]
+enabled         = true
+undocumented    = true
+treat_as_errors = false
+
+[sources]
+recursive_paths = [ '../src' ]
+patterns        = [ '*.cpp' , '*.h' ]
+extract_all     = true
