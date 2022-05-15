@@ -4,7 +4,7 @@ if(NOT EXISTS ${ZYNAMIC_OUT})
   find_path (PATH "Steam/steamapps/common/Call of Duty Black Ops" PATHS "A:/" "B:/" "D:/" "E:/" "F:/" "G:/" "H:/" "I:/" "J:/" "K:/" "L:/" "M:/" "N:/" "O:/" "P:/" "Q:/" "R:/" "S:/" "T:/" "U:/" "V:/" "W:/" "X:/" "Y:/" "Z")
   set(ZYNAMIC_OUT ${PATH} CACHE PATH "Call of Duty®: Black Ops Directory." FORCE)
   if(NOT EXISTS ${ZYNAMIC_OUT})
-    message(FATAL_ERROR "Call of Duty®: Black Ops is needed with this project, but it's directory was not found. Please set it or make sure it is set to ZYNAMIC_OUT in the CMake file.")
+    message(WARNING "Call of Duty®: Black Ops is needed with this project, but it's directory was not found. Please set it or make sure it is set to ZYNAMIC_OUT in the CMake file.")
   endif()
 endif()
 
