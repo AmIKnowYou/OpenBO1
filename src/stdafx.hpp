@@ -6,7 +6,7 @@
 // Third party libraries
 #include <d3d9.h>
 #include <detours.h>
-#include <zynamic/zynamic.hpp>
+#include <zynamic/zynamic>
 #include <git.h>
 
 // Concepts library

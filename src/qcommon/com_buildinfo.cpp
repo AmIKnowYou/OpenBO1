@@ -1,10 +1,10 @@
 //! SPDX-License-Identifier: GPL-3.0-or-later
 
-auto Com_GetBuildVersion() -> const char*
-{
-  static auto build_version = std::format("{}-{} {}", GIT_DESCRIBE, GIT_IS_DIRTY ? "dirty" : "", GIT_COMMIT_DATE_ISO8601);
-  return build_version.c_str();
-}
+// auto Com_GetBuildVersion() -> const char*
+// {
+//   //static auto build_version = std::format("{}-{} {}", GIT_DESCRIBE, GIT_IS_DIRTY ? "dirty" : "", GIT_COMMIT_DATE_ISO8601);
+//   //return build_version.c_str();
+// }
 
 #ifdef    __UNIMPLEMENTED__
 
@@ -15,10 +15,10 @@ auto Com_GetBuildNumber() -> int
 
 #endif // __UNIMPLEMENTED__
 
-auto Com_GetBuildDisplayName() -> const char*
-{
-  return "";
-}
+// auto Com_GetBuildDisplayName() -> const char*
+// {
+//   return "";
+// }
 
 #ifdef    __UNIMPLEMENTED__
 
@@ -37,10 +37,10 @@ auto Com_GetBuildDisplayNameR() -> const char*
 
 #endif // __UNIMPLEMENTED__
 
-auto Com_GetBuildName() -> const char*
-{
-  return "OpenBO1";
-}
+// auto Com_GetBuildName() -> const char*
+// {
+//   return "OpenBO1";
+// }
 
 #ifdef    __UNIMPLEMENTED__
 
