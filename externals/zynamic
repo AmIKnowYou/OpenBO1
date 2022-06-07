@@ -9,7 +9,7 @@ if(NOT EXISTS ${ZYNAMIC_OUT})
 endif()
 
 FetchContent_Declare(Zynamic
-  GIT_REPOSITORY https://github.com/wroyca/zynamic.git
+  GIT_REPOSITORY https://github.com/OpenBO1/zynamic.git
   GIT_TAG main
 )
 
